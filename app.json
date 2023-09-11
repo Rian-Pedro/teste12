@@ -1,6 +1,14 @@
 {
   "expo": {
     "name": "testeQRcode",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
     "slug": "testeQRcode",
     "version": "1.0.0",
     "orientation": "portrait",
